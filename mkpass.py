@@ -13,7 +13,7 @@ def main() -> None:
     args = parser.parse_args()
 
     if args.help:
-        with open("README.md") as f:
+        with open("README") as f:
             print("\n" + f.read() + "\n")
             exit()
 
